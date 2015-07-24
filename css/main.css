@@ -1,11 +1,482 @@
-#example-rounded {
-  cursor: pointer;
-  border-radius: 7px;
-  text-align: center;
-  width: 70px;
-  font: Arial;
-  background-color: red;
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Cardo:700,400);
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,300,700,400);
+.colors .teal-colors {
+  width: 300px;
+  float: left; }
+  .colors .teal-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .teal-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .teal-colors .box-100 {
+    background-color: #B2DFDB; }
+  .colors .teal-colors .box-200 {
+    background-color: #80CBC4; }
+  .colors .teal-colors .box-300 {
+    background-color: #4DB6AC; }
+  .colors .teal-colors .box-400 {
+    background-color: #26A69A; }
+  .colors .teal-colors .box-500 {
+    background-color: #009688; }
+  .colors .teal-colors .box-600 {
+    background-color: #00897B; }
+  .colors .teal-colors .box-700 {
+    background-color: #00796B; }
+.colors .orange-colors {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  .colors .orange-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .orange-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .orange-colors .box-100 {
+    background-color: #FFE0B2; }
+  .colors .orange-colors .box-200 {
+    background-color: #FFCC80; }
+  .colors .orange-colors .box-300 {
+    background-color: #FFB74D; }
+  .colors .orange-colors .box-400 {
+    background-color: #FFA726; }
+  .colors .orange-colors .box-500 {
+    background-color: #FF9800; }
+  .colors .orange-colors .box-600 {
+    background-color: #FB8C00; }
+  .colors .orange-colors .box-700 {
+    background-color: #F57C00; }
+.colors .pink-colors {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  .colors .pink-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .pink-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .pink-colors .box-100 {
+    background-color: #F8BBD0; }
+  .colors .pink-colors .box-200 {
+    background-color: #F48FB1; }
+  .colors .pink-colors .box-300 {
+    background-color: #F06292; }
+  .colors .pink-colors .box-400 {
+    background-color: #EC407A; }
+  .colors .pink-colors .box-500 {
+    background-color: #EC407A; }
+  .colors .pink-colors .box-600 {
+    background-color: #E91E63; }
+  .colors .pink-colors .box-700 {
+    background-color: #D81B60; }
+
+.colors .teal-colors {
+  width: 300px;
+  float: left; }
+  .colors .teal-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .teal-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .teal-colors .box-100 {
+    background-color: #B2DFDB; }
+  .colors .teal-colors .box-200 {
+    background-color: #80CBC4; }
+  .colors .teal-colors .box-300 {
+    background-color: #4DB6AC; }
+  .colors .teal-colors .box-400 {
+    background-color: #26A69A; }
+  .colors .teal-colors .box-500 {
+    background-color: #009688; }
+  .colors .teal-colors .box-600 {
+    background-color: #00897B; }
+  .colors .teal-colors .box-700 {
+    background-color: #00796B; }
+.colors .orange-colors {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  .colors .orange-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .orange-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .orange-colors .box-100 {
+    background-color: #FFE0B2; }
+  .colors .orange-colors .box-200 {
+    background-color: #FFCC80; }
+  .colors .orange-colors .box-300 {
+    background-color: #FFB74D; }
+  .colors .orange-colors .box-400 {
+    background-color: #FFA726; }
+  .colors .orange-colors .box-500 {
+    background-color: #FF9800; }
+  .colors .orange-colors .box-600 {
+    background-color: #FB8C00; }
+  .colors .orange-colors .box-700 {
+    background-color: #F57C00; }
+.colors .pink-colors {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  .colors .pink-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .pink-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .pink-colors .box-100 {
+    background-color: #F8BBD0; }
+  .colors .pink-colors .box-200 {
+    background-color: #F48FB1; }
+  .colors .pink-colors .box-300 {
+    background-color: #F06292; }
+  .colors .pink-colors .box-400 {
+    background-color: #EC407A; }
+  .colors .pink-colors .box-500 {
+    background-color: #EC407A; }
+  .colors .pink-colors .box-600 {
+    background-color: #E91E63; }
+  .colors .pink-colors .box-700 {
+    background-color: #D81B60; }
+
+.display {
+  color: black; }
+
+.one {
+  font-weight: 300; }
+
+.two {
+  font-weight: 400; }
+
+.three {
+  font-weight: 500; }
+
+.four {
+  font-weight: 700; }
+
+.type-sizes {
+  width: 900px; }
+
+p {
+  color: black; }
+
+span {
+  color: black; }
+
+.display {
+  font-size: 56px;
+  line-height: 89.6px;
+  letter-spacing: 0.56px;
+  font-family: roboto;
+  color: #009688;
+  letter-spacing: .9px; }
+
+.headline {
+  font-size: 24px;
+  line-height: 38.4px;
+  letter-spacing: 0.24px;
+  font-family: roboto;
+  color: #009688; }
+
+.title {
+  font-size: 21px;
+  line-height: 33.6px;
+  letter-spacing: 0.21px;
+  font-family: roboto;
+  color: #009688; }
+
+.subhead {
+  font-size: 16px;
+  line-height: 25.6px;
+  letter-spacing: 0.16px;
+  font-family: roboto;
+  color: #009688; }
+
+.body {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-family: roboto;
+  color: #009688; }
+
+.caption {
+  font-size: 13px;
+  line-height: 20.8px;
+  letter-spacing: 0.13px;
+  font-family: roboto;
+  color: #009688;
+  letter-spacing: .9px; }
+
+.button {
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-family: roboto;
+  color: #009688;
+  font-weight: 500;
+  letter-spacing: .4px;
+  text-transform: uppercase;
   color: white; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.colors .teal-colors {
+  width: 300px;
+  float: left; }
+  .colors .teal-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .teal-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .teal-colors .box-100 {
+    background-color: #B2DFDB; }
+  .colors .teal-colors .box-200 {
+    background-color: #80CBC4; }
+  .colors .teal-colors .box-300 {
+    background-color: #4DB6AC; }
+  .colors .teal-colors .box-400 {
+    background-color: #26A69A; }
+  .colors .teal-colors .box-500 {
+    background-color: #009688; }
+  .colors .teal-colors .box-600 {
+    background-color: #00897B; }
+  .colors .teal-colors .box-700 {
+    background-color: #00796B; }
+.colors .orange-colors {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  .colors .orange-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .orange-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .orange-colors .box-100 {
+    background-color: #FFE0B2; }
+  .colors .orange-colors .box-200 {
+    background-color: #FFCC80; }
+  .colors .orange-colors .box-300 {
+    background-color: #FFB74D; }
+  .colors .orange-colors .box-400 {
+    background-color: #FFA726; }
+  .colors .orange-colors .box-500 {
+    background-color: #FF9800; }
+  .colors .orange-colors .box-600 {
+    background-color: #FB8C00; }
+  .colors .orange-colors .box-700 {
+    background-color: #F57C00; }
+.colors .pink-colors {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  .colors .pink-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .pink-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .pink-colors .box-100 {
+    background-color: #F8BBD0; }
+  .colors .pink-colors .box-200 {
+    background-color: #F48FB1; }
+  .colors .pink-colors .box-300 {
+    background-color: #F06292; }
+  .colors .pink-colors .box-400 {
+    background-color: #EC407A; }
+  .colors .pink-colors .box-500 {
+    background-color: #EC407A; }
+  .colors .pink-colors .box-600 {
+    background-color: #E91E63; }
+  .colors .pink-colors .box-700 {
+    background-color: #D81B60; }
+
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding-top: 250px; }
+
+header {
+  height: 300px;
+  padding-top: 50px;
+  background: #4DB6AC; }
+  header .display {
+    color: white;
+    margin-top: 60px;
+    margin-left: 50px; }
+
+.main-nav {
+  position: relative;
+  background: #009688;
+  height: 80px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4); }
+  .main-nav ul li {
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px; }
+    .main-nav ul li a {
+      text-decoration: none;
+      float: right;
+      color: white; }
+  .main-nav li:nth-child(1) {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    width: 100px; }
+
+.typography-underline {
+  width: 100px;
+  color: white;
+  z-index: 1;
+  position: absolute;
+  left: 10px;
+  border: red;
+  background-color: red; }
+
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0; }
+
+.main {
+  padding: 110px 50px 50px;
+  margin-top: 50px;
+  position: relative;
+  background-color: white; }
+
+.action-button {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: red;
+  border: 1px red solid; }
+
+body {
+  font-size: 12px;
+  line-height: 30px; }
+  body h1 {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0px;
+    color: #009688;
+    padding-bottom: 10px; }
+  body p {
+    font-family: "Roboto", sans-serif; }
+  body div {
+    margin-bottom: 20px; }
+
+.buttons div {
+  float: left;
+  margin-right: 20px; }
+
+.rounded-small {
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: #009688;
+  color: white; }
+  .rounded-small:hover {
+    background-color: #009688; }
+
+.rounded-medium {
+  cursor: pointer;
+  border-radius: 30px;
+  text-align: center;
+  width: 100px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: #009688;
+  color: white; }
+  .rounded-medium:hover {
+    background-color: #009688; }
+
+.rounded-large {
+  cursor: pointer;
+  border-radius: 50px;
+  text-align: center;
+  width: 100px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background-color: #009688;
+  color: white; }
+  .rounded-large:hover {
+    background-color: #009688; }
 
 #example-centered-wrapper {
   width: 70px;
@@ -19,6 +490,11 @@
   margin: 0 auto;
   width: 50px;
   height: 50px;
-  background: lime; }
+  background: #009688; }
+  #example-centered:hover {
+    background-color: #009688; }
+
+.clear {
+  clear: both; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,183 @@
+$teal-100: #B2DFDB;
+$teal-200: #80CBC4;
+$teal-300: #4DB6AC;
+$teal-400: #26A69A;
+$teal-500: #009688; 
+$teal-600: #00897B;
+$teal-700: #00796B;
+
+$orange-100:#FFE0B2;
+$orange-200:#FFCC80;
+$orange-300:#FFB74D;
+$orange-400:#FFA726;
+$orange-500:#FF9800;
+$orange-600:#FB8C00;
+$orange-700:#F57C00;
+
+
+$pink-100: #F8BBD0; 
+$pink-200: #F48FB1; 
+$pink-300: #F06292; 
+$pink-400: #EC407A; 
+$pink-500: #EC407A; 
+$pink-600: #E91E63; 
+$pink-700: #D81B60; 
+
+
+$teal-complement: complement($teal-500);
+
+
+.colors {
+   
+  
+
+.teal-colors{
+   width: 300px;
+   float: left;
+   
+   div{
+      width: 300px;
+      height: 40px;
+      color:black;
+      margin: 0px;
+   }
+
+
+   .caption {
+      margin-left: 15px;
+      padding-top: 10px;
+   }
+   
+   .box-100 {
+   background-color: $teal-100;
+   }
+
+   .box-200 {
+      background-color: $teal-200;
+   }
+
+   .box-300 {
+      background-color: $teal-300;
+   }
+
+   .box-400 {
+      background-color: $teal-400;
+   }
+
+   .box-500 {
+      background-color: $teal-500;
+   }
+
+
+   .box-600 {
+      background-color: $teal-600;
+   }
+
+   .box-700 {
+      background-color: $teal-700;
+   }
+
+}
+
+
+.orange-colors{
+   width: 300px;
+   float: left;
+   margin-left: 20px;
+   
+   div{
+      width: 300px;
+      height: 40px;
+      color:black;
+      margin: 0px;
+   }
+
+   .caption {
+      margin-left: 15px;
+      padding-top: 10px;
+   }
+   
+   .box-100 {
+   background-color: $orange-100;
+   }
+
+   .box-200 {
+      background-color: $orange-200;
+   }
+
+   .box-300 {
+      background-color: $orange-300;
+   }
+
+   .box-400 {
+      background-color: $orange-400;
+   }
+
+   .box-500 {
+      background-color: $orange-500;
+   }
+
+
+   .box-600 {
+      background-color: $orange-600;
+   }
+
+   .box-700 {
+      background-color: $orange-700;
+   }
+
+}
+
+.pink-colors{
+   width: 300px;
+   float: left;
+   margin-left: 20px;
+   
+   div{
+      width: 300px;
+      height: 40px;
+      color:black;
+      margin: 0px;
+   }
+
+   .caption {
+      margin-left: 15px;
+      padding-top: 10px;
+   }
+   
+   .box-100 {
+   background-color: $pink-100;
+   }
+
+   .box-200 {
+      background-color: $pink-200;
+   }
+
+   .box-300 {
+      background-color: $pink-300;
+   }
+
+   .box-400 {
+      background-color: $pink-400;
+   }
+
+   .box-500 {
+      background-color: $pink-500;
+   }
+
+
+   .box-600 {
+      background-color: $pink-600;
+   }
+
+   .box-700 {
+      background-color: $pink-700;
+   }
+
+}
+}
+
+
+
+
+

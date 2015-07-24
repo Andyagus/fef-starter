@@ -1,0 +1,76 @@
+@import 'colors';
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding-top: 250px;
+}
+
+header {
+  height: 300px;
+  padding-top: 50px;
+  background: $teal-300;
+  .display {
+   color:white;
+   margin-top: 60px;
+   margin-left: 50px;
+  }
+}
+
+.main-nav {
+  position: relative;
+  background: $teal-500;
+  height: 80px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+   ul{
+      li {
+         float: left;
+         margin-left: 50px;
+         margin-top: 30px;
+
+         a{
+            text-decoration: none;
+            float: right;
+            color: white;
+         }
+      }
+   }
+
+  li:nth-child(1) {
+        border-bottom: 1px solid white ;
+        padding-bottom: 10px;
+        width: 100px;
+      }        
+}
+
+
+.typography-underline {
+          width: 100px;
+          color: white;
+          z-index: 1;
+          position: absolute;
+          left: 10px;
+          border: red;
+          background-color: red;
+        }
+
+
+header,
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.main {
+  padding: 110px 50px 50px;
+  margin-top: 50px;
+  position: relative; 
+
+  background-color: white;
+}
+

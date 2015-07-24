@@ -1,0 +1,11 @@
+@mixin action-button($width) {
+   width: $width;
+   height: $width;
+   border-radius: 50%;
+}
+
+.action-button {
+   @include action-button(25px);
+   background-color: red;
+   border: 1px red solid;
+}

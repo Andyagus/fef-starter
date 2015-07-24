@@ -2,20 +2,134 @@
 <html>
 
 <head>
-  <link rel='stylesheet' href='css/main.css'>
+ <link rel='stylesheet' href='css/main.css'>
+ <script title="jQuery CDN" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script title="This script does x" src="javascripts/main.js"></script>
 </head>
 
 <body>
-  <h1> Rounded button </h1>
-  <p> Create a rounded button with "@include rounded-button([radius in px])"
-  <div id='example-rounded'>Click Me</div>
+  
+  <header>
+    <div class="display"> This is the header, something to enjoy. </div>
+  </header>
+  
+  <div class="action-button"> Testing </div>
 
-  <h1> Vertically centered element </h1>
-  <p> Create a vertically centered element with "@include vertically-centered-element"</p>
-  <div id='example-centered-wrapper'>
-    <div id='example-centered'>
-     </div>
+  <nav class="main-nav"> 
+    <ul> 
+
+        <li class="selected_nav"> 
+          <div class="button">
+              <a href="#">Typography</a>
+           </div>
+         </li>
+
+        <li><div class="button"> <a href="#">Colors</a></div></li>
+        <li><div class="button"> <a href="#">Components</a></div></li>
+        <li><div class="button"> <a href="#">Icons</a></div></li>
+    </ul>  
+  </nav>
+
+<div class="main">
+  <div class="wallpaper">
+    <!-- <div class="circle-button">
+    </div> -->
+
+    <div class="headline"> Colors </div> 
+       <div class="subhead"> <span> Control all your type by using @include type-size Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit aliquam dolorum officiis nobis ex ipsam porro dolores, praesentium eligendi quis reiciendis consequatur consectetur ut! Consequuntur est, numquam vero cum a. <span> </div>
+      <div class="colors">   
+        <div class="teal-colors">
+              <div class="box-100"> <div class="caption"> $teal-100</div> </div>
+              <div class="box-200"> <div class="caption"> $teal-200</div> </div>
+              <div class="box-300"> <div class="caption"> $teal-300</div> </div>
+              <div class="box-400"> <div class="caption"> $teal-400</div> </div>
+              <div class="box-500"> <div class="caption"> $teal-500</div> </div>
+              <div class="box-600"> <div class="caption"> $teal-600</div> </div>
+              <div class="box-700"> <div class="caption"> $teal-700</div> </div>
+        </div>
+
+        <div class="orange-colors">
+            <div class="box-100"> <div class="caption"> $orange-100</div> </div>
+            <div class="box-200"> <div class="caption"> $orange-200</div> </div>
+            <div class="box-300"> <div class="caption"> $orange-300</div> </div>
+            <div class="box-400"> <div class="caption"> $orange-400</div> </div>
+            <div class="box-500"> <div class="caption"> $orange-500</div> </div>
+            <div class="box-600"> <div class="caption"> $orange-600</div> </div>
+            <div class="box-700"> <div class="caption"> $orange-700</div> </div>
+        </div>
+
+        <div class="pink-colors">
+            <div class="box-100"> <div class="caption"> $pink-100</div> </div>
+            <div class="box-200"> <div class="caption"> $pink-200</div> </div>
+            <div class="box-300"> <div class="caption"> $pink-300</div> </div>
+            <div class="box-400"> <div class="caption"> $pink-400</div> </div>
+            <div class="box-500"> <div class="caption"> $pink-500</div> </div>
+            <div class="box-600"> <div class="caption"> $pink-600</div> </div>
+            <div class="box-700"> <div class="caption"> $pink-700</div> </div>
+        </div>
+
+      </div>
+    <div class="clear"></div>
+
+ <div class="type-sizes">
+    
+
+    <div class="headline"> Typography </div>
+   
+    <div class="roboto-entrance">
+      <div class="display one">Roboto Light</div>
+      <div class="display two"> Roboto Regular </div>
+      <div class="display three"> Roboto Medium </div>
+      <div class="display four"> Roboto Bold </div> 
+    </div>
+
+    <div class="display"> Display </div>
+  
+
+   <div class= 'headline'>Headline</div>
+
+  <div class="title"> Title </div> 
+    
+  <div class="subhead"> Subhead </div> 
+ 
+  <div class="body"> Body </div> 
+  
+
+  <div class="caption"> Caption </div> 
+
+   
+ <!--  <div class="title"> Button </div> 
+
+   <div class= 'button'>
+      <p>  Bespoke 90's Marfa, yr 3 wolf moon before they sold out drinking vinegar freegan food truck sustainable pour-over. </p> 
+   </div> -->
+ </div>
+
+  <div class="components">
+    <div class="headline">  
+      Components 
+    </div>
   </div>
+    
+     Buttons Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, ex, natus? Dolor magnam dolorem, blanditiis itaque quisquam aliquid ducimus, nemo harum quidem suscipit aperiam et ipsa, quas quia doloribus unde. </h1> </div>
+     <p> Create a rounded button with "@include rounded-button([radius in px])" </p>
+     
+     <div class='buttons'>
+     <!-- Rounded Buttons -->
+     <div class='rounded-small'>10px</div>
+     <div class='rounded-medium'>30px</div>
+     <div class='rounded-large'>50px</div>
+
+     </div>
+
+     <br>
+     <h1> Vertically centered element </h1>
+     <p> Create a vertically centered element with "@include vertically-centered-element"</p>
+     <div id='example-centered-wrapper'>
+     <div id='example-centered'>
+     </div>
+     </div>
+  </main>
 
 </body>
 

@@ -1,0 +1,79 @@
+.colors .teal-colors {
+  width: 300px;
+  float: left; }
+  .colors .teal-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .teal-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .teal-colors .box-100 {
+    background-color: #B2DFDB; }
+  .colors .teal-colors .box-200 {
+    background-color: #80CBC4; }
+  .colors .teal-colors .box-300 {
+    background-color: #4DB6AC; }
+  .colors .teal-colors .box-400 {
+    background-color: #26A69A; }
+  .colors .teal-colors .box-500 {
+    background-color: #009688; }
+  .colors .teal-colors .box-600 {
+    background-color: #00897B; }
+  .colors .teal-colors .box-700 {
+    background-color: #00796B; }
+.colors .orange-colors {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  .colors .orange-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .orange-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .orange-colors .box-100 {
+    background-color: #FFE0B2; }
+  .colors .orange-colors .box-200 {
+    background-color: #FFCC80; }
+  .colors .orange-colors .box-300 {
+    background-color: #FFB74D; }
+  .colors .orange-colors .box-400 {
+    background-color: #FFA726; }
+  .colors .orange-colors .box-500 {
+    background-color: #FF9800; }
+  .colors .orange-colors .box-600 {
+    background-color: #FB8C00; }
+  .colors .orange-colors .box-700 {
+    background-color: #F57C00; }
+.colors .pink-colors {
+  width: 300px;
+  float: left;
+  margin-left: 20px; }
+  .colors .pink-colors div {
+    width: 300px;
+    height: 40px;
+    color: black;
+    margin: 0px; }
+  .colors .pink-colors .caption {
+    margin-left: 15px;
+    padding-top: 10px; }
+  .colors .pink-colors .box-100 {
+    background-color: #F8BBD0; }
+  .colors .pink-colors .box-200 {
+    background-color: #F48FB1; }
+  .colors .pink-colors .box-300 {
+    background-color: #F06292; }
+  .colors .pink-colors .box-400 {
+    background-color: #EC407A; }
+  .colors .pink-colors .box-500 {
+    background-color: #EC407A; }
+  .colors .pink-colors .box-600 {
+    background-color: #E91E63; }
+  .colors .pink-colors .box-700 {
+    background-color: #D81B60; }
+
+/*# sourceMappingURL=colors.css.map */
