@@ -1,5 +1,10 @@
 @import 'colors';
 
+%line{
+    bottom: 1px white;
+    margin-top: 10px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -25,7 +30,7 @@ header {
   height: 80px;
   z-index: 150;
   margin-bottom: -80px;
-  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+  box-shadow: 0 2px 3px rgba(0,0,0,.3);
    ul{
       li {
          float: left;
@@ -40,24 +45,39 @@ header {
       }
    }
 
-  li:nth-child(1) {
-        border-bottom: 1px solid white ;
-        padding-bottom: 10px;
-        width: 100px;
-      }        
+     
 }
 
+.nav1{
+  .selected_nav {
+    border-bottom: 1px solid white;
+    padding-top: 7px;
+  }
+}
 
-.typography-underline {
-          width: 100px;
-          color: white;
-          z-index: 1;
-          position: absolute;
-          left: 10px;
-          border: red;
-          background-color: red;
-        }
+.nav2{
+  .selected_nav {
+    border-bottom: 1px solid white;
+        padding-top: 7px;
 
+  }
+}
+
+.nav3{
+  .selected_nav {
+    border-bottom: 1px solid white;
+        padding-top: 7px;
+
+  }
+}
+
+.nav4{
+  .selected_nav {
+    border-bottom: 1px solid white;
+        padding-top: 7px;
+
+  }
+}
 
 header,
 .main-nav-scrolled {
@@ -73,4 +93,3 @@ header,
 
   background-color: white;
 }
-

@@ -13,7 +13,6 @@ $serif: 'Cardo', serif;
    line-height:1.6 * $size;
    letter-spacing: .01 * $size;
    font-family: roboto;
-   color:$teal-500;
 }
 
 
@@ -22,68 +21,139 @@ $serif: 'Cardo', serif;
   top: 50%;
   transform: translateY(-50%);
 }
-    .display{
-      color: black;
-    }
+.display{
+  color: black;
+}
 
-    .one {
-      font-weight: 300;
-    }
+.one {
+  font-weight: 300;
+}
 
-    .two {
-      font-weight: 400;
-    }
+.two {
+  font-weight: 400;
+}
 
-    .three {
-      font-weight: 500;
-    }
+.three {
+  font-weight: 500;
+}
 
-    .four {
-      font-weight: 700;
-    }
+.four {
+  font-weight: 700;
+}
 
-    .type-sizes{
-      width: 900px;
-    }
+.typography{
+  width: 1200px;
 
+
+  .type-about {
     
-    p {
-      color: black;
-    }
-
-    span {
-      color: black;
-    }
-    .display {
-      @include font-size(56px);
-      letter-spacing: .9px;
-    }
-
-    .headline {
-      @include font-size(24px);
-    }
 
     .title {
-      @include font-size(21px);
-    }
-
-    .subhead {
-      @include font-size(16px);
-    }
-
-    .body {
-      @include font-size(15px);
     }
 
     .caption {
-      @include font-size(13px);
-      letter-spacing: .9px;
+      color: black;
+      letter-spacing: .2px;
+    }
+  }
+
+  .type-weight{
+    color: black;
+    float: left;
+  }
+
+  .type-sizes {
+    float: left;
+    width: 300px;
+    margin-left: 100px;
+    .headline{
+      color: black;
     }
 
-    .button {
-      @include font-size(15px);
-      font-weight:500;
-      letter-spacing: .4px;
-      text-transform: uppercase;
-      color: white;
-    }
+  .title {
+    color: black;
+  }
+
+  }
+
+}
+
+
+.type-sizes {
+
+
+  left-content {
+    float: left;
+  }
+
+    .right-content {
+    float: left;
+    height: 300px;
+    width: 80px;
+    line-height: 50px;
+  }
+}
+
+
+
+
+.display {
+  @include font-size(32px);
+  letter-spacing: .9px;
+
+}
+
+.headline {
+  @include font-size(24px);
+     color:$teal-500; 
+      font-weight: medium;
+     
+     span {
+      color:$teal-500; 
+     }
+
+}
+
+.title {
+
+  @include font-size(21px);
+
+}
+
+.subhead {
+  @include font-size(16px);
+
+}
+
+.body {
+  @include font-size(15px);
+
+}
+
+.caption {
+  @include font-size(13px);
+  letter-spacing: .7px;
+
+}
+
+.button {
+  @include font-size(15px);
+  font-weight:500;
+  letter-spacing: .4px;
+  text-transform: uppercase;
+  color: white;
+     color:$teal-500;
+
+}
+
+.title {
+  span{
+    color: $teal-500;
+  }
+}
+
+
+
+.title {
+  color: $teal-500;
+}
